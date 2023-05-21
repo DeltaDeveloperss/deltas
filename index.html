@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Devloper portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(8, 8, 84);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 99px;
+            background-color: rgb(231, 76, 60);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(63, 63, 83);
+            font-size: 1rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(299, 255, 43);
+            height: 1.2px;
+            margin: 70px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 23vh 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background-color: #1E90FF;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+
+
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: gold;
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        #element {
+            color: rgb(88, 58, 58);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 90vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.6rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 74vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 54px;
+            position: relative;
+            top: -57px;
+            left: -16px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: goldenrod;
+            width: 150px;
+            font-size: 12px;
+        }
+
+        footer {
+            background-color: rgb(153, 40, 59);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: rgb(14, 14, 14);
+            padding: 12px 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Welcome to the Commumity</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+
+                    <li><a href="Contact us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                We are <span class="purple">DELTA DEVELOPERS</span>
+                <div>And We Perform task on Web Designing</div>
+                <span id="element"></span>
+
+                <div class="buttons">
+                    <a href="https://www.instagram.com/usdeltadevelopers/">
+                        <button class="btn"> Visit Instagram </button>
+                    </a>
+                    <a href="https://github.com/DeltaDeveloperss">
+                        <button class="btn">Visit Github</button>
+                    </a>
+
+
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="https://avatars.githubusercontent.com/u/134196041?v=4" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey"> What We have done so far</span>
+            <h1>Work experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2012/6465556/1000w_q95.jpg" alt="">
+                    <div class="vertical-title">
+                        Web developer
+                    </div>
+                    <div class="vertical-desc">
+                        Web devloper with 3+ year of experience managing multiple website and Web application design
+                        projects.
+                        Adept and developing creative and functional designs,web page layouts,color schemes,and
+                        infrastructure to maintain a cohesive website consistent with clients needs.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://img.freepik.com/premium-photo/mixed-team-software-engineers-brainstorming-ideas-new-code-library-front-computer-screens-compiling-algorithms-diverse-app-developers-collaborating-group-project-it-agency-office_482257-33536.jpg?w=1380"
+                        alt="">
+                    <div class="vertical-title">
+                        Web Designer
+                    </div>
+                    <div class="vertical-desc">
+                        Energetic Web Designer with 3 years experience creating and maintaining functional,attractive
+                        and responsive website for travel companies.
+                        clear understanding of mordern technologies and best design practices.Experienced with Wordpress
+                        and Dhrupal. Proven track record of raising ux scores and customers retention.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://cdn.computercareers.org/wp-content/uploads/Coding-1024x683.jpeg.webp" alt="">
+                    <div class="vertical-title">
+                        content writer
+                    </div>
+                    <div class="vertical-desc">
+                        creative and Experienced content writer with 3+ years of experience. Attached over 500 new
+                        visitors to the company website with powerful content.
+                        Eager to create unique content strategy for our new visitors.Experienced in writting buzz-worthy
+                        feature articles, news reports, interview and content marketing pieces.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://cdn.computercareers.org/wp-content/uploads/Work-space-of-an-engineer-1024x683.jpeg.webp"
+                        alt="">
+                    <div class="vertical-title">
+                        Video editor
+                    </div>
+                    <div class="vertical-desc">
+                        innovative video editor with 2+ years of hands-on-experience in editing videos for
+                        programs,commercials,individual clients and digital and social marketing.
+                        offering solid expertise in pre and post-production editing,
+                        and visual effects application. adept at managing multiple projects while ensuring
+                        maximum clent satisfaction with the heighest level of service and quality.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk7Qc0TEfyabxm1wo4SgMgi2TTcXJTxvR9fA&usqp=CAU"
+                        alt="">
+                    <div class="vertical-title">
+                        Data Entry Operator
+                    </div>
+                    <div class="vertical-desc">
+                        A rigorous, task-driven professional with substantial experience in data entry,office
+                        management.
+                        Adept at leveraging superior communicative and interpersonal skill to interact with diverse
+                        individuals and group of all organisational levels.possess incomparable ability to perform
+                        accurate and efficient entry of data into adminstrative software.
+                    </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> PORTFOLIO </h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+
+
+                    <a href="https://twitter.com/DevelopersDelta">
+                        <img src="https://store-images.s-microsoft.com/image/apps.36792.9007199266244427.c75d2ced-a383-40dc-babd-1ad2ceb13c86.f594cb3e-881b-486c-83e4-4c72d39ee3f1?w=120"
+                            alt="" width="30px">
+                    </a>
+
+                </ul>
+            </div>
+
+            <div class=" footer-rights">
+                Copyright &#169; usdeltadevelopers.com | All Rights Reserved
+            </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphics Designer', 'Web Designer', 'Presentation Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>
